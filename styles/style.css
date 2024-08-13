@@ -1,0 +1,63 @@
+body {
+	background-color: rgb(4, 10, 63);
+	font-family: 'Roboto';
+}
+.header {
+	width: 694px;
+	height: 30px;
+	margin: 10px auto;
+	padding-bottom: 65px;
+	font-size: 20px;
+
+	text-align: center;
+	color: rgb(3, 3, 75);
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+	border: 3px solid rgb(8, 25, 82);
+	display: block;
+}
+.Tem {
+	width: 700px;
+	height: fit-content;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+}
+.MyFace-img {
+	width: 294px;
+	height: 100%;
+	display: block;
+	border-radius: 10px;
+	border: 3px solid rgb(8, 25, 82);
+	
+	
+}
+.Code-img {
+	margin: 0px 10px;
+	height: auto;
+	width: 384px;
+	border-radius: 10px;
+	border: 3px solid rgb(8, 25, 82);
+}
+.info {
+	padding: 10px;
+}
+.info-text {
+	width: 674px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	color: rgb(3, 3, 75);
+	background-color: white;
+	border-radius: 10px;
+	border: 3px solid rgb(8, 25, 82);
+
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
