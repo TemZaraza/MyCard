@@ -10,9 +10,10 @@ body {
 	font-size: 20px;
 
 	text-align: center;
-	color: rgb(3, 3, 75);
-	background-color: rgb(255, 255, 255);
-	border-radius: 10px;
+	color: white;
+	color: rgb(228, 228, 141);
+	background-color: rgb(8, 25, 82);
+	border-radius: 5px;
 	border: 3px solid rgb(8, 25, 82);
 	display: block;
 }
@@ -43,16 +44,17 @@ body {
 	padding: 10px;
 }
 .info-text {
-	width: 674px;
+	width: 615px;
 	height: 80px;
 	margin: 0 auto;
 	padding: 10px;
-	text-align: center;
+	padding-left: 70px;
+	text-align: left;
 	font-size: 30px;
 	font-style: italic;
 	color: rgb(3, 3, 75);
-	background-color: white;
-	border-radius: 10px;
+	background-color: rgb(228, 228, 141);
+	border-radius: 25px;
 	border: 3px solid rgb(8, 25, 82);
 
 }
