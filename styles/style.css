@@ -1,5 +1,8 @@
 body {
+	
+	background-image: url('../imgs/dark3.jpg');
 	background-color: rgb(2, 12, 27);
+	background-size: cover;
 	font-family: 'Roboto';
 }
 .header {
@@ -13,7 +16,7 @@ body {
 	color: rgb(228, 228, 141);
 	background-color: rgb(8, 25, 82);
 	border-radius: 5px;
-	border: 3px solid rgb(8, 25, 82);
+	border: 1px solid rgb(255, 255, 255);
 	display: block;
 }
 .Tem {
@@ -37,7 +40,7 @@ body {
 	height: auto;
 	width: 384px;
 	border-radius: 10px;
-	border: 3px solid rgb(8, 25, 82);
+	border: 3px solid rgb(197, 171, 171);
 }
 .info {
 	padding: 10px;
