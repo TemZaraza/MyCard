@@ -40,7 +40,7 @@ body {
 	height: auto;
 	width: 384px;
 	border-radius: 10px;
-	border: 3px solid rgb(197, 171, 171);
+	border: 1px solid rgb(197, 171, 171);
 }
 .info {
 	padding: 10px;
@@ -81,4 +81,18 @@ footer a, footer p {
 .round-icon {
 	border: 1px solid yellow;
 	border-radius: 25%;
+}
+
+.made-by-text {
+	display: inline-block;
+	font-style: italic;
+	width: 600px;
+}
+.dwarfImg {
+	margin: 5px 0 0 450px;
+	display: block;
+	border-radius: 5px;
+	border: 1px solid white;
+	width: 100px;
+	height: fit-content;
 }
