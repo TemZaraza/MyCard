@@ -6,7 +6,7 @@ body {
 	font-family: 'Roboto';
 }
 .header {
-	width: 694px;
+	width: 690px;
 	height: 30px;
 	margin: 10px auto;
 	padding-bottom: 65px;
@@ -25,9 +25,10 @@ body {
 	margin: 0px auto;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 .MyFace-img {
-	width: 294px;
+	width: 300px;
 	height: 100%;
 	display: block;
 	border-radius: 10px;
@@ -36,9 +37,9 @@ body {
 	
 }
 .Code-img {
-	margin: 0px 10px;
+	margin: 0px 0px 0px 10px;
 	height: auto;
-	width: 384px;
+	width: 375px;
 	border-radius: 10px;
 	border: 1px solid rgb(197, 171, 171);
 }
@@ -46,20 +47,23 @@ body {
 	padding: 10px;
 }
 .info-text {
-	width: 615px;
+	width: 670px;
 	height: 80px;
 	margin: 0 auto;
 	padding: 10px;
-	padding-left: 70px;
-	text-align: left;
+	text-align: center;
 	font-size: 30px;
-	font-style: italic;
+	/* font-style: italic;	 */
 	color: rgb(3, 3, 75);
 	background-color: rgb(228, 228, 141);
 	border-radius: 10px;
 	border: 1px solid rgb(255, 255, 255);
-
 }
+
+.info-text::before {
+	content: '- ';
+}
+
 @font-face {
 	font-family: 'Roboto';
 	src: url(../fonts/Roboto-Regular.ttf);
