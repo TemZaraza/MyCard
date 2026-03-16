@@ -87,12 +87,25 @@ footer a, footer p {
 	border-radius: 25%;
 }
 
+.hide-joke-button {
+	margin-top: 10px;
+	height: 28px;
+	width: 125px;
+	font-size: 18px;
+}
+
+.hide-joke-button:hover {
+	background-color: brown;
+}
+
 .made-by-text {
 	text-align: center;
 	display: inline-block;
 	font-style: italic;
 	width: 300px;
+	/* display: none; */
 }
+
 .dwarfImg {
 	margin: 5px 0 5px;
 	display: inline-block;
@@ -100,4 +113,5 @@ footer a, footer p {
 	border: 1px solid white;
 	width: 100px;
 	height: fit-content;
+	/* display: none; */
 }
