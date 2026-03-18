@@ -2,7 +2,7 @@ body {
 	
 	background-image: url('../imgs/dark3.jpg');
 	background-color: rgb(2, 12, 27);
-	background-size: cover;
+	background-size: auto;
 	font-family: 'Roboto';
 }
 .header {
@@ -95,7 +95,7 @@ footer a, footer p {
 }
 
 .hide-joke-button:hover {
-	background-color: brown;
+	background-color: rgb(196, 234, 9);
 }
 
 .made-by-text {
