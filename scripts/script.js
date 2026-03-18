@@ -4,7 +4,6 @@ if (!showJoke) {
 }
 
 function hideShowJoke() {
-    console.log('showJoke = ', showJoke)
     if (showJoke) {
         document.getElementById('barbarian-joke').style.display = 'none';
         document.getElementById("joke-button").innerHTML = "Show joke :)";
@@ -16,3 +15,7 @@ function hideShowJoke() {
     }
     showJoke = !showJoke;
 }
+
+//todo:
+//- Make showing joke work smooth, even after 1 click
+//- Change (update) main photo
