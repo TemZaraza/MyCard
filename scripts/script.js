@@ -19,3 +19,4 @@ function hideShowJoke() {
 //todo:
 //- Make showing joke work smooth, even after 1 click
 //- Change (update) main photo
+//- edit Background
