@@ -87,6 +87,11 @@ footer a, footer p {
 	border-radius: 25%;
 }
 
+.round-icon:hover {
+	background-color: rgb(196, 234, 9);
+	color: rgb(3, 3, 75);
+}
+
 .hide-joke-button {
 	margin-top: 10px;
 	height: 28px;
