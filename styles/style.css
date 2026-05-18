@@ -1,5 +1,6 @@
 body {
-	background-color: rgb(2, 12, 27);
+	/* background-color: rgb(2, 12, 27); */
+	background-image: url('../imgs/dark3.jpg');
 	font-family: 'Roboto';
 }
 .header {
