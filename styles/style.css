@@ -69,8 +69,9 @@ body {
 }
 
 footer {
-	width: 300px;
+	width: 700px;
 	margin: auto;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
@@ -92,7 +93,7 @@ footer a, footer p {
 }
 
 .hide-joke-button {
-	margin-top: 10px;
+	margin-top: 20px;
 	height: 28px;
 	width: 125px;
 	font-size: 18px;
@@ -102,12 +103,17 @@ footer a, footer p {
 	background-color: rgb(196, 234, 9);
 }
 
+#barbarian-joke {
+	width: 700px;
+	/* opacity: 1; */
+	/* transition: opacity 0.4s; read about css transition to make fade-in/fade-out animation*/ 
+	/* transition: transform 1s; */
+}
+
 .made-by-text {
-	text-align: center;
 	display: inline-block;
 	font-style: italic;
-	width: 300px;
-	/* display: none; */
+	width: 700px;
 }
 
 .dwarfImg {
@@ -117,5 +123,4 @@ footer a, footer p {
 	border: 1px solid white;
 	width: 100px;
 	height: fit-content;
-	/* display: none; */
 }

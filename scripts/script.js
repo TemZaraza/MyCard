@@ -11,12 +11,7 @@ function hideShowJoke() {
         document.getElementById('barbarian-joke').style.display = '';
         document.getElementById("joke-button").innerHTML = "Hide joke :|";
         document.getElementById('end-of-joke').scrollIntoView({behavior: 'smooth'}); 
-        // Why smooth behaviour works only one time after first click?
     }
     showJoke = !showJoke;
 }
 
-//todo:
-//- Make showing joke work smooth, even after 1 click
-//- Change (update) main photo
-//- edit Background
