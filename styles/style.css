@@ -1,6 +1,4 @@
 body {
-	
-	/* background-image: url('../imgs/dark3.jpg'); */
 	background-color: rgb(2, 12, 27);
 	background-size: auto;
 	font-family: 'Roboto';
@@ -52,7 +50,6 @@ body {
 	padding: 10px;
 	text-align: center;
 	font-size: 30px;
-	/* font-style: italic;	 */
 	color: rgb(3, 3, 75);
 	background-color: rgb(228, 228, 141);
 	border-radius: 10px;
@@ -94,6 +91,7 @@ footer a, footer p {
 
 .hide-joke-button {
 	margin-top: 20px;
+	margin-bottom: 10px;
 	height: 28px;
 	width: 125px;
 	font-size: 18px;
