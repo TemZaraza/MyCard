@@ -1,6 +1,7 @@
 body {
-	background-color: rgb(2, 12, 27);
-	background-size: auto;
+	/* background-color: rgb(2, 12, 27); */
+	background-image: url(../imgs/gradient-blue.jpg); 
+	background-size: cover;
 	font-family: 'Roboto';
 }
 .header {
