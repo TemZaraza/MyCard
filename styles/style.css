@@ -96,6 +96,7 @@ footer a, footer p {
 	height: 28px;
 	width: 125px;
 	font-size: 18px;
+	transition: all 0.5s;
 }
 
 .hide-joke-button:hover {
@@ -104,9 +105,7 @@ footer a, footer p {
 
 #barbarian-joke {
 	width: 700px;
-	/* opacity: 1; */
-	/* transition: opacity 0.4s; read about css transition to make fade-in/fade-out animation*/ 
-	/* transition: transform 1s; */
+	/* transition: all ease-out 1s; - make it work*/ 
 }
 
 .made-by-text {
