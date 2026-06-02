@@ -10,7 +10,7 @@ function Joke(show) {
         document.getElementById('barbarian-joke').style.opacity = '1';
         document.getElementById("joke-button").innerHTML = "Hide joke :|";
         document.getElementById('end-of-joke').scrollIntoView({behavior: 'smooth'}); 
-        document.getElementById('barbarian-joke').style.transition = 'opacity 0.7s 0.2s'
+        document.getElementById('barbarian-joke').style.transition = 'opacity 0.5s'
     }
 }
 
