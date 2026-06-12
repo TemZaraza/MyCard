@@ -1,9 +1,11 @@
+let firstlaunch = true;
 Joke(showJoke = false);
+
 
 function Joke(show) {
     if (!show) {
         document.getElementById('barbarian-joke').style.opacity = '0';
-        document.getElementById('joke-button').innerHTML = "Hiding joke...";
+        document.getElementById('joke-button').innerHTML = firstlaunch ? 'Show joke :)' : 'Hiding joke...';
         document.getElementById('barbarian-joke').style.transition = 'opacity 0.7s 0.2s'
         setTimeout(() => {
             document.getElementById('joke-button').innerHTML = "Show joke :)";
@@ -26,4 +28,6 @@ function hideShowJoke() {
     showJoke = !showJoke;
     Joke(showJoke);
 }
+
+firstlaunch = false;
 
