@@ -2,6 +2,8 @@
 + edit Background 
 + make joke part fade in/ fade out smoothly (through css, js)
 +- Make normal scroll (when off/on joke)
+	//got problems with smooth scroll to the top of page
+	
 -+ Make fade-in/ fade-out effect for joke
 - Work on joke-button style, made it more like mycard style
 - make it adaptive (for smartphones)

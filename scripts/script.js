@@ -1,9 +1,16 @@
 let firstlaunch = true;
 Joke(showJoke = false);
 
+// const element1 = document.getElementById('start-of-page');
+// const yOffset = -10; 
+// const y = element1.getBoundingClientRect().top + window.scrollY + yOffset; 
+// Not what I want
+
 
 function Joke(show) {
     if (!show) {
+        console.log('hiding joke')
+
         document.getElementById('barbarian-joke').style.opacity = '0';
         document.getElementById('joke-button').innerHTML = firstlaunch ? 'Show joke :)' : 'Hiding joke...';
         document.getElementById('barbarian-joke').style.transition = 'opacity 0.7s 0.2s'
@@ -11,9 +18,13 @@ function Joke(show) {
             document.getElementById('joke-button').innerHTML = "Show joke :)";
             document.getElementById('barbarian-joke').style.display = 'none';
             document.getElementById('hr-one').style.opacity = '1';
-            // document.getElementById('center-of-page').scrollIntoView({behavior: 'smooth'}); - Figure out how to make smooth moving from joke
+            // window.scrollTo({top: y, behavior: 'smooth'});
+            // window.scrollTo({top: document.getElementById('start-of-page').getBoundingClientRect().top + window.scrollY - 50, behavior: "smooth"});
+            // Not what I want
         }, 800);
-    } else {        
+    } else {   
+        console.log('showing joke');
+
         document.getElementById('hr-one').style.opacity = '0';
         document.getElementById('barbarian-joke').style.opacity = '1';
         document.getElementById('barbarian-joke').style.display = 'block';
@@ -31,3 +42,6 @@ function hideShowJoke() {
 
 firstlaunch = false;
 
+
+
+window.scrollTo({top: y, behavior: 'smooth'});
