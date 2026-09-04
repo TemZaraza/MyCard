@@ -18,4 +18,3 @@ function hideShowJoke() {
     showJoke = !showJoke;
     Joke(showJoke);
 }
-
