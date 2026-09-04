@@ -1,4 +1,6 @@
 let firstlaunch = true;
+let currentTheme = 'light';
+
 Joke(showJoke = false);
 
 // const element1 = document.getElementById('start-of-page');
@@ -6,6 +8,21 @@ Joke(showJoke = false);
 // const y = element1.getBoundingClientRect().top + window.scrollY + yOffset; 
 // Not what I want
 
+function switchTheme() {
+    if (currentTheme == 'light') {
+        currentTheme = 'dark'
+        document.getElementById('theme-switcher-btn').innerHTML = 'Dark'
+        document.getElementById('theme-switcher-btn').style.color = 'white'
+        document.getElementById('theme-switcher-btn').style.backgroundColor = 'black'
+        document.getElementById('theme-switcher-btn').style.borderColor = 'black'
+    } else {
+        currentTheme = 'light'
+        document.getElementById('theme-switcher-btn').innerHTML = 'Light'
+        document.getElementById('theme-switcher-btn').style.color = 'black'
+        document.getElementById('theme-switcher-btn').style.backgroundColor = 'white'
+        document.getElementById('theme-switcher-btn').style.borderColor = 'white'
+    }
+}
 
 function Joke(show) {
     if (!show) {
@@ -44,4 +61,4 @@ firstlaunch = false;
 
 
 
-window.scrollTo({top: y, behavior: 'smooth'});
+// window.scrollTo({top: y, behavior: 'smooth'});

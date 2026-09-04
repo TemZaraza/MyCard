@@ -1,5 +1,9 @@
 + Change (update) main photo
 + edit Background 
++- make ThemeSwitcher *
+	+ make button
+	- work on button style, animation
+	- add theme colors to front and background
 + make joke part fade in/ fade out smoothly (through css, js)
 +- Make normal scroll (when off/on joke)
 	//got problems with smooth scroll to the top of page
