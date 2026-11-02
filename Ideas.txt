@@ -1,3 +1,4 @@
 - make Web TODO for my tasks
     i The page will have links on sites, and todo tables
     i make card frontend with steps, info when you click on a task
+    i you can upload tasks through terminal
